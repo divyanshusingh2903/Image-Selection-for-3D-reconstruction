@@ -2,11 +2,11 @@
 
 ## Overview
 
-This project develops a Deep Reinforcement Learning (DRL) agent to optimize the selection of camera views for multi-view 3D reconstruction, specifically targeting applications like sports analysis. The goal is to dynamically choose a subset of available camera views that maximizes the quality of the 3D reconstruction while minimizing the associated computational cost, which can be significant when using all available views[cite: 1, 2].
+This project develops a Deep Reinforcement Learning (DRL) agent to optimize the selection of camera views for multi-view 3D reconstruction, specifically targeting applications like sports analysis. The goal is to dynamically choose a subset of available camera views that maximizes the quality of the 3D reconstruction while minimizing the associated computational cost, which can be significant when using all available views.
 
 ## Problem Description
 
-In scenarios with multiple cameras capturing an event (e.g., a soccer match), using every camera feed for 3D reconstruction is often computationally expensive and potentially redundant[cite: 1]. Selecting an optimal subset of views can significantly reduce processing time without sacrificing reconstruction quality. This project frames the view selection process as a sequential decision-making problem solvable with reinforcement learning[cite: 3].
+In scenarios with multiple cameras capturing an event (e.g., a soccer match), using every camera feed for 3D reconstruction is often computationally expensive and potentially redundant. Selecting an optimal subset of views can significantly reduce processing time without sacrificing reconstruction quality. This project frames the view selection process as a sequential decision-making problem solvable with reinforcement learning.
 
 ## Features
 
